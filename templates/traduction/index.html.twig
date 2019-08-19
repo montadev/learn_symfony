@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello TraductionController!{% endblock %}
+
+{% block body %}
+
+  {{trad |trans }}
+
+ 
+ <a href="{{path('test')}}">test</a>
+
+{% endblock %}
